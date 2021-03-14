@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/html" href="styles.css">
+    <title>Weather Journal API</title>
+</head>
+<body>
+    <div id="searchContainer">
+        <input id="searchInput" class="searchControl "type="text" placeholder="Enter a zip code">
+        <!-- <textarea id="feelings" class="userFeelings" cols="30" rows="10"></textarea> -->
+        <button id="generate" class="btn">Search</button>
+    </div>
+
+    <div id="weatherContainer">
+        <div id="weatherDesciption">
+            <h1 id="cityHeader">Kelowna</h1>
+            <h3 id="date">Thursday March 11, 2021</h3>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDesciptionHeader"></div>
+                <div id="date"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class=bottomDetails></div>
+        </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
